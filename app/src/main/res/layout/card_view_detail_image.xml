@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+       xmlns:card_view="http://schemas.android.com/apk/res-auto"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardViewMovie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardElevation="6dp">
+
+        <com.tae.movierestful.view.widgets.ImageViewDetail
+            android:id="@+id/imageDetail"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:transitionName="@string/imageTransition"/>
+
+    </android.support.v7.widget.CardView>
+</merge>
